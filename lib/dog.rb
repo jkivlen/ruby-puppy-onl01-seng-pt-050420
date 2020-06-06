@@ -1,5 +1,4 @@
-# Add your code here
-require 'pry'
+# Add your code her
 class Dog
   
   @@all = []
@@ -20,7 +19,7 @@ class Dog
   
   def self.print_all
    
-    @@all.map{|dog|binding.pry puts dog.name} 
+    @@all.map{|dog| puts dog.name} 
    
   end
   
